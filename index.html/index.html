@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noindex" />
+		<!-- れんしゅうのみ -->
+		<title>oha Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="/css/reset.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<header class="header ly__header">
+			<div class="header__inner">
+				<h1 class="header__logo">
+					<a href=""><img src="/img/logo.png" alt="oha!" /></a
+					><!--  -->
+				</h1>
+				<!-- /.header__logo -->
+				<nav class="header__nav">
+					<a href="#about" class="header__link">サービスについて</a>
+					<a href="#how-to-use" class="header__link">使い方</a>
+					<a href="#merit" class="header__link">メリット</a>
+					<a href="#contact" class="header__link border-button">お問い合わせ</a>
+				</nav>
+				<!-- /.header__nav -->
+				<button id="js-drawer-icon" class="header__open drawer-icon">
+					<span class="drawer-icon-bar"></span>
+					<span class="drawer-icon-bar"></span>
+					<span class="drawer-icon-bar"></span>
+				</button>
+				<!-- /.header__open drawer-icon -->
+			</div>
+			<!-- /.header__inner ly__header -->
+		</header>
+
+		<!-- drawer-content -->
+		<div id="js-drawer-content" class="drawer__content">
+			<nav class="drawer__content__menu">
+				<a href="#about" class="menu__item">サービスについて</a>
+				<a href="#how-to-use" class="menu__item">使い方</a>
+				<a href="#merit" class="menu__item">メリット</a>
+				<div class="drawer-content__button">
+					<a href="#contact" class="border-button">お問い合わせ</a>
+				</div>
+				<!-- /.menu__item -->
+			</nav>
+			<!-- /.drawer__content__menu -->
+		</div>
+		<!-- /.drawer__content -->
+
+		<!-- mv- -->
+		<div class="ly-mv">
+			<div class="mv__inner">
+				<div class="mv__content">
+					<p class="mv__lead">
+						<span class="mv__lead1 ly-lead">「めざめる」の日常を</span>
+						<span class="mv__lead2 ly-lead">もっとおもしろく。</span>
+					</p>
+					<!-- /.mv__lead -->
+					<p class="mv__description">
+						OHA!は、朝起きたい人と<br />朝起こされたい人が<br />ランダムにマッチングしちゃう<br />通話アプリです。
+					</p>
+					<!-- /.description -->
+					<div class="mv__button">
+						<a href="" class="border-button btnBgBlack">アプリダウンロード</a>
+					</div>
+					<!-- /.mv__button -->
+				</div>
+				<!-- /.mv__content -->
+				<div class="mv__img">
+					<img src="/img/first-view-img.png" alt="" />
+				</div>
+			</div>
+			<!-- /.mv_inner ly-mv -->
+		</div>
+		<!-- /.mv -->
+
+		<section class="case">
+			<div class="case__inner">
+				<h2 class="case__title js-in-view fade-in-up">導入実績</h2>
+				<!-- case__title -->
+				<div class="case__items">
+					<div class="case__item"><img src="/img/case1-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case2-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case3-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case4-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case5-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case6-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case7-img.png" alt="" /></div>
+					<div class="case__item"><img src="/img/case8-img.png" alt="" /></div>
+					<!-- /.case__item -->
+				</div>
+				<!-- case__items -->
+			</div>
+			<!-- /.case__inner -->
+		</section>
+		<!-- /.case -->
+
+		<section class="news">
+			<div class="inner__commun">
+				<div class="news__card">
+					<h2 class="news__title js-in-view fade-in-up">NEWS</h2>
+					<div class="new__lists">
+						<a href="" class="news__list news-link">
+							<div class="news-link__meta">
+								<time class="news-link__date" datetime="2022-12-15">2022年12月15日</time>
+								<div class="news-link__label labelOrange">お知らせ</div>
+							</div>
+							<h3 class="news-link__title">年末年始について</h3>
+						</a>
+						<a href="" class="news__list news-link">
+							<div class="news-link__meta">
+								<time class="news-link__date" datetime="2022-12-10">2022年12月10日</time>
+								<div class="news-link__label labelYellow">コラム</div>
+							</div>
+							<h3 class="news-link__title">
+								あの芸能人にも使っていただいていることが判明しました！もう嬉しすぎて頭が真っ白になってしまいましたが、続きは本文にて！
+							</h3>
+						</a>
+						<a href="" class="news__list news-link">
+							<div class="news-link__meta">
+								<time class="news-link__date" datetime="2022-09-01">2022年9月1日</time>
+								<div class="news-link__label labelGreen">イベント情報</div>
+							</div>
+							<h3 class="news-link__title">
+								幕張メッセにて体験会を実施します！
+							</h3>
+						</a>
+					</div>
+					<!-- /.news__lists -->
+					<div class="news__link"><a href="">もっと見る</a></div>
+					<!-- news__link -->
+				</div>
+				<!-- /.news__card -->
+			</div>
+			<!-- /.news__inner -->
+		</section>
+		<!-- /.news -->
+
+		<div id="about" class="about">
+			<div class="about__inner">
+				<div class="about__title js-in-view fade-in-up"><img src="/img/logo.png" alt="" /></div>
+				<!-- /.about__title -->
+				<div class="about__content">
+					<div class="about__img">
+						<img src="/img/about-img.png" alt="" />
+					</div>
+					<p class="about__text">
+						突然ですが、あなたは朝起きる時、<br class="hiddenBr" />
+						誰かに起こされれば起きれる派か、<br />
+						誰かを起こす予定があれば起きれる派か、<br class="hiddenBr" />
+						どちらかというとどちらでしょうか？<br />
+						朝起きるという行為は、<br class="hiddenBr" />
+						徹夜してなければ1年に365回、<br />
+						10年だと3652回、<br class="hiddenBr" />
+						50年だと18262回やってきます。<br />
+						そんなに回数があるんなら、<br class="hiddenBr" />
+						ちょっとイベントにしてみても<br class="hiddenBr" />
+						楽しいんじゃない？<br />
+						というアイデアで誕生したのがOHA!です。<br />
+						日本中の起こしたい人と起こされたい人が<br class="hiddenBr" />
+						ランダムにマッチングして<br class="hiddenBr" />
+						起こし起こされることで、<br />
+						朝の日常にちょっとした刺激が生まれます。
+					</p>
+					<!-- /.about__text -->
+					<div class="about__pop">＼開発者はお坊さん？／</div>
+					<!-- /.about__pop -->
+					<div class="about__button border-button">
+						<button class="js-modal-open">誕生ストーリーを見る</button>
+					</div>
+					<!-- /.about__button -->
+				</div>
+				<!-- /.about__content -->
+			</div>
+			<!-- /.about__inner -->
+		</div>
+		<!-- /.about -->
+
+		<dialog id="js-about-modal" class="about-modal">
+			<div class="about-modal__head">
+				<button class="about-modal__close-icon js-close-modal">
+					<img src="/img/close-icon.png" alt="" />
+				</button>
+			</div>
+			<!-- /.about-modal__head -->
+			<div class="about-modal__body">
+				<p>
+					お坊さんの師匠は、ある日自分が寝坊して仏教の講義に遅刻してしまい、急いで作ったアプリがきっかけでした。そのアプリは、自分のスマートフォンにセットした時間になると、仏教の教えをパッと思い出すようになっていました。<br>
+					お坊さんはそのアプリを見て、自分もそんなアプリが欲しいと思い、師匠に頼んで自分専用のアプリを作ってもらったのだそうです。そして、お坊さんは太郎にそのアプリを使ってもらうように勧めました。
+				</p>
+				<p>
+					太郎は早速、そのアプリをダウンロードして設定してみました。翌朝、セットした時間になると、スマートフォンが音を立てて仏教の教えが表示されました。「一日を立派に過ごすためには、まず朝イチで身心の健康を整えることが大切です」という教えに太郎は心を動かされ、僧侶になるかもしれないと思いました。<br>
+					以来、太郎は毎朝ちゃんと起きることができ、授業に遅刻することはなくなりました。そして、太郎はそのアプリの効果に感服し、友人たちにも勧めるようになっていきました。そうして、そのアプリは口コミで広まり、多くの人に利用されるようになっていったのでした。
+				</p>
+			</div>
+			<!-- /.about-modal__body -->
+			<div class="about-modal__close-button">
+				<button class="border-button js-close-modal">閉じる</button>
+			</div>
+			<!-- /.about-modal__close-button -->
+		</dialog>
+
+		<section class="movie">
+			<div class="movie__inner">
+				<div class="heading__title js-in-view fade-in-up">
+					<div class="heading__title-en">MOVIE</div>
+					<!-- /.movie__title-en -->
+					<h2 class="heading__title-ja">2秒で分かる！OHA!について</h2>
+					<!-- /.movie__title-ja -->
+				</div>
+				<!-- /.movie__title -->
+				<div class="movie__iframe">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/4XTF16CcqPc?si=NoDuH9CMOf9Yn4GA"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+				</div>
+				<!-- /.movie__iframe -->
+			</div>
+			<!-- /.movie__inner -->
+		</section>
+		<!-- /.movie -->
+
+		<section id="how-to-use" class="howToUse">
+			<div class="inner__common inner">
+				<div class="heading__title js-in-view fade-in-up">
+					<div class="heading__title-en">HOW TO USE</div>
+					<!-- /.heading__en -->
+					<h2 class="heading__title-ja">OHA!の使い方</h2>
+					<!-- /.heading__ja -->
+				</div>
+				<!-- /.heading__title -->
+
+				<div class="howToUse__boxes">
+					<div class="howToUse__box">
+						<div class="box__title">
+							誰かを起こす予定があれば<br class="hiddenBr" />
+							起きれる派の人
+							<img src="/img/step1-title-img.png" alt="" />
+						</div>
+						<!-- /.box__title -->
+						<div class="box__steps">
+							<div class="box__step">
+								<div class="step__head">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">01</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step1-1-img.png" alt="" />
+										<p class="step__body_txt">
+											起こしたい時間を<br />設定します
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+							<div class="box__step">
+								<div class="step__head">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">02</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step1-2-img.png" alt="" />
+										<p class="step__body_txt">
+											スマホを枕元に置いて<br />寝ます
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+							<div class="box__step">
+								<div class="step__head">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">03</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step1-3-img.png" alt="" />
+										<p class="step__body_txt">
+											起こすことによって<br />起きることができます
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+						</div>
+						<!-- /.box__steps -->
+					</div>
+					<!-- /.howToUse__box -->
+
+					<div class="howToUse__box is-typeLeft">
+						<div class="box__title">
+							誰かに起こされれば<br class="hiddenBr" />起きれる派の人
+							<img src="/img/step2-title-img.png" alt="" />
+						</div>
+						<!-- /.box__title -->
+						<div class="box__steps">
+							<div class="box__step">
+								<div class="step__head colorYellow">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">01</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step2-1-img.png" alt="" />
+										<p class="step__body_txt">
+											"起こされたい時間を<br />設定します
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+							<div class="box__step">
+								<div class="step__head colorYellow">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">02</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step2-2-img.png" alt="" />
+										<p class="step__body_txt">
+											スマホを枕元に置いて<br />寝ます
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+							<div class="box__step">
+								<div class="step__head colorYellow">
+									<div class="step__head-txt">STEP</div>
+									<!-- /.step__txt -->
+									<div class="step_head-number">03</div>
+									<!-- /.step_head-number -->
+								</div>
+								<!-- /.step__head -->
+								<div class="step__body">
+									<div class="step__body__img">
+										<img src="/img/step2-3-img.png" alt="" />
+										<p class="step__body_txt">
+											起こされることによって<br />起きることができます
+										</p>
+										<!-- /.step__body_txt -->
+									</div>
+									<!-- /.step__body__img -->
+								</div>
+								<!-- /.step__body -->
+							</div>
+						</div>
+						<!-- /.box__steps -->
+					</div>
+					<!-- /.howToUse__box -->
+				</div>
+				<!-- /.howToUse__boxes -->
+			</div>
+			<!-- /.inner__common -->
+		</section>
+		<!-- /.howToUse -->
+
+		<section id="merit" class="merit">
+			<div class="inner__common">
+				<div class="merit__title js-in-view fade-in-up">
+					<div class="heading__title">
+						<div class="heading__title-en">MERIT</div>
+						<!-- /.heading__title-en -->
+						<h2 class="heading__title-ja">OHA!を使うメリット</h2>
+						<!-- /.heading__title-ja -->
+					</div>
+					<!-- /.heading__title -->
+				</div>
+				<!-- /.merit__title -->
+				<div class="merit__boxes">
+					<div class="merit__box">
+						<div class="merit-box">
+							<div class="merit-box__content">
+								<div class="merit-box__img">
+									<img src="/img/merit1-img.png" alt="" />
+								</div>
+								<div class="merit-box__body">
+									<div class="merit-box__head">
+										<div class="merit-box__number">1</div>
+										<!-- /.merit-box__number -->
+										<div class="merit-box__title">
+											通りすがりに猫が<br />
+											挨拶してくれるようになる
+										</div>
+										<!-- /.merit-box__title -->
+									</div>
+									<!-- /.merit-box__head -->
+									<p class="merit-box__txt">
+										偶然の可能性も高いですが、OHA!を使うようになってから、やたらと猫が挨拶してくれるようになった、というお話をいただきます。とはいえ、自惚れすぎてはいけません。挨拶されたからといって一方的に話しかけ続けてしまうと気まぐれ猫ちゃんにうんざりされる上に周りの目も冷ややかです。
+									</p>
+									<!-- /.merit-box__txt -->
+								</div>
+								<!-- /.merit-box__body -->
+							</div>
+							<!-- /.merit-box__content -->
+						</div>
+						<!-- /.merit-box -->
+					</div>
+					<!-- /.merit__box -->
+					<div class="merit__box">
+						<div class="merit-box is-reverse">
+							<div class="merit-box__content">
+								<!-- .merit__img & .merit-box__bodyを囲って一つのグループにする -->
+								<div class="merit-box__img">
+									<img src="/img/merit2-img.png" alt="" />
+								</div>
+								<div class="merit-box__body">
+									<div class="merit-box__head">
+										<div class="merit-box__number">2</div>
+										<!-- /.merit-box__number -->
+										<div class="merit-box__title">
+											商店街の福引で<br />
+											3等のティッシュボックスが<br class="hiddenBr" />
+											当たる
+										</div>
+										<!-- /.merit-box__title -->
+									</div>
+									<!-- /.merit-box__head -->
+									<p class="merit-box__txt">
+										OHA!を使うことで、どういった因果関係なのか、ちょっと運もよくなります。あなたの街には商店街があるかわかりませんが、もしあればチャンスです。買い物をして、福引に挑んでみましょう。3等のティッシュボックスが当たること間違いなしです。<br />
+										もう景品のポケットティッシュで涙を拭う、なんてことはないのです。
+									</p>
+									<!-- /.merit-box__txt -->
+								</div>
+								<!-- /.merit-box__body -->
+							</div>
+							<!-- /.merit-box__content -->
+						</div>
+						<!-- /.merit-box -->
+					</div>
+					<!-- /.merit__box -->
+					<div class="merit__box">
+						<div class="merit-box">
+							<div class="merit-box__content">
+								<div class="merit-box__img">
+									<img src="/img/merit3-img.png" alt="" />
+								</div>
+								<div class="merit-box__body">
+									<div class="merit-box__head">
+										<div class="merit-box__number">3</div>
+										<!-- /.merit-box__number -->
+										<div class="merit-box__title">
+											掃除をしていたら、<br />
+											過去に自分が隠した<br />
+											へそくりが出てきた
+										</div>
+										<!-- /.merit-box__title -->
+									</div>
+									<!-- /.merit-box__head -->
+									<p class="merit-box__txt">
+										自分が隠したへそくりを自分が発見するのはプラスマイナス0ですが、なんだか嬉しいものですよね。過去の自分よ、素敵なサプライズをありがとう。<br />
+										へそくりをしたことがない方にとっては申し訳ないですがこのイベントは起こりませんのでアプリ使用の再検討をおすすめします。
+									</p>
+									<!-- /.merit-box__txt -->
+								</div>
+								<!-- /.merit-box__body -->
+							</div>
+							<!-- /.merit-box__content -->
+						</div>
+						<!-- /.merit-box -->
+					</div>
+					<!-- /.merit__box -->
+				</div>
+				<!-- /.merit__boxes -->
+			</div>
+			<!-- /.merit__inner -->
+		</section>
+		<!-- /.merit -->
+
+		<div class="download-content">
+			<div class="download__inner">
+				<p class="download__txt">
+					どうですか？<br class="hiddenBr" />
+					<span class="txt-inline-block">早速今日から使ってみたく</span
+					><!-- /.txt-inline-fle --><span class="txt-inline-block">
+						なりましたか？
+					</span>
+					<!-- /.txt-inline-fle -->
+					<br />てかほんと使って。お願い。
+				</p>
+				<!-- /.download -->
+				<a href="#" class="border-button"><button>今すぐダウンロード</button></a>
+				<!-- /.border-btn -->
+			</div>
+			<!-- download__inner -->
+		</div>
+		<!-- /.download-content -->
+
+		<div class="compare">
+			<div class="compare__inner inner__common">
+				<div class="compare__title js-in-view fade-in-up">他のサービスとの違い</div>
+				<!-- /.compare__title -->
+				<div class="compare__content">
+					<table class="compare__table">
+						<thead>
+							<tr>
+								<th></th>
+								<th><img src="/img/compare-logo.png" alt="" /></th>
+								<th>他社1</th>
+								<th>他社2</th>
+							</tr>
+						</thead>
+						<!-- table head の略 -->
+						<tbody>
+							<tr>
+								<th>仲介手数料</th>
+								<td>なし！</td>
+								<td>
+									希望時間に起きれた毎に<br />
+									100円
+								</td>
+								<td>
+									希望時間に起きれた毎に<br />
+									40000ペコ
+								</td>
+							</tr>
+							<tr>
+								<th>登録料</th>
+								<td>なし！</td>
+								<td>
+									希望時間に起きれた毎に<br />
+									100円
+								</td>
+								<td>
+									希望時間に起きれた毎に<br />
+									40000ペコ
+								</td>
+							</tr>
+							<tr>
+								<th>年間皆勤賞特典</th>
+								<td>あり！</td>
+								<td>なし</td>
+								<td>なし</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- /.compare__table -->
+				</div>
+				<!-- /.compare__content -->
+				<div class="compare__attention">横にスクロールできます</div>
+			</div>
+			<!-- /.compare__inner -->
+		</div>
+		<!--  compare -->
+
+		<section class="qa">
+			<div class="qa__inner inner__common">
+				<div class="qa__heading">
+					<div class="heading__title js-in-view fade-in-up">
+						<div class="heading__title-en">Q&A</div>
+						<!-- /.heading__title-en -->
+						<h2 class="heading__title-ja">よくあるご質問</h2>
+						<!-- /.heading__title-ja -->
+					</div>
+					<!-- /.heading__title -->
+				</div>
+				<!-- /.qa__heading -->
+				<div class="qa__boxes">
+					<div class="qa__box qa-box is-open">
+						<button type="button" class="qa-box__que js-accordion">
+							<!-- divではなく、buttonにすることで、キーボードで操作してる人もQ&AのAを開くことができる -->
+							<span class="qa-box__que-icon">Q</span>
+							<!-- /.qa-box__que-icon -->
+							<span class="qa-box__que-txt"
+								>僕があまりにも起きない場合、相手に怒られることはあるのでしょうか？怖くて朝も起きられません。</span
+							>
+							<!-- /.qa-box__que-txt -->
+						</button>
+						<!-- /.qa-box__que-->
+
+						<div class="qa-box__body" style="display: block">
+							<div class="qa-box__ans">
+								<span class="qa-box__ans-icon">A</span>
+								<!-- /.qa-box__ans-icon -->
+								<span class="qa-box__ans-txt"
+									>残念ながら、相手によります。</span
+								>
+								<!-- /.qa-box__ans-txt -->
+							</div>
+							<!-- /.qa-box__ans -->
+						</div>
+						<!-- /.qa-box__body -->
+					</div>
+
+					<!-- /.qa__box  qa-box-->
+					<div class="qa__box qa-box">
+						<button type="button" class="qa-box__que js-accordion">
+							<!-- divではなく、buttonにすることで、キーボードで操作してる人もQ&AのAを開くことができる -->
+							<span class="qa-box__que-icon">Q</span>
+							<!-- /.qa-box__head-icon -->
+							<span class="qa-box__que-txt">今現在の登録者は何人ですか？</span>
+							<!-- /.qa-box__head-txt -->
+						</button>
+						<!-- /.qa-box__que-->
+
+						<div class="qa-box__body">
+							<div class="qa-box__ans">
+								<span class="qa-box__ans-icon">A</span>
+								<!-- /.qa-box__ans-icon -->
+								<span class="qa-box__ans-txt"
+									>現在の登録者は150万人(から149.998万人を引いた人数)です。この文を2行にしたいのでもう一度言います。現在の登録者は150万人(から149.998万人を引いた人数)です！</span
+								>
+								<!-- /.qa-box__ans-txt -->
+							</div>
+							<!-- /.qa-box__ans -->
+						</div>
+						<!-- /.qa__box  qa-box-->
+					</div>
+					<!-- /.qa-box__body -->
+
+					<div class="qa__box qa-box">
+						<button type="button" class="qa-box__que js-accordion">
+							<!-- divではなく、buttonにすることで、キーボードで操作してる人もQ&AのAを開くことができる -->
+							<span class="qa-box__que-icon">Q</span>
+							<!-- /.qa-box__head-icon -->
+							<span class="qa-box__que-txt"
+								>アプリをインストールして使う妄想だけで朝起きられるようになりました！結局インストールはしてないですが、ありがとうございます！</span
+							>
+							<!-- /.qa-box__head-txt -->
+						</button>
+						<!-- /.qa-box__que-->
+
+						<div class="qa-box__body">
+							<div class="qa-box__ans">
+								<span class="qa-box__ans-icon">A</span>
+								<!-- /.qa-box__ans-icon -->
+								<span class="qa-box__ans-txt"
+									>それはよかったです！しかしインストールはしてほしかった！！！</span
+								>
+								<!-- /.qa-box__ans-txt -->
+							</div>
+							<!-- /.qa-box__ans -->
+						</div>
+						<!-- /.qa-box__body -->
+					</div>
+					<!-- /.qa__box  qa-box-->
+				</div>
+				<!-- /.qa__boxes -->
+			</div>
+			<!-- /.inner__common -->
+		</section>
+		<!-- /.qa -->
+
+		<section class="gallery">
+			<div class="gallery-inner inner__common">
+				<div class="gallery__title">
+					<div class="heading__title js-in-view fade-in-up">
+						<div class="heading__title-en">GALLERY</div>
+						<!-- /.heading__title-en -->
+						<h2 class="heading__title-ja">ギャラリー</h2>
+						<!-- /.heading__title-ja -->
+					</div>
+					<!-- /.heading__title -->
+				</div>
+				<!-- /.gallery__title -->
+				<div class="gallery__slider">
+					<!-- Slider main container -->
+					<div id="js-gallery-swiper" class="swiper gallery__swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide gallery__slide">
+								<div class="gallery__card">
+									<div class="gallery__card-image">
+										<img src="/img/gallery-1.png" alt="" />
+									</div>
+									<!-- /.gallery__card-image -->
+									<p class="gallery__card-txt">
+										最高な海。を拝んでいる私最高...
+									</p>
+									<!-- /.gallery__card-txt -->
+								</div>
+								<!-- /.gallery__card -->
+							</div>
+
+							<div class="swiper-slide gallery__slide">
+								<div class="gallery__card">
+									<div class="gallery__card-image">
+										<img src="/img/gallery-2.png" alt="" />
+									</div>
+									<!-- /.gallery__card-image -->
+									<p class="gallery__card-txt">
+										モーニングは一番のり。今日も私えらい。
+									</p>
+									<!-- /.gallery__card-txt -->
+								</div>
+								<!-- /.gallery__card -->
+							</div>
+
+							<div class="swiper-slide gallery__slide">
+								<div class="gallery__card">
+									<div class="gallery__card-image">
+										<img src="/img/gallery-3.png" alt="" />
+									</div>
+									<!-- /.gallery__card-image -->
+									<p class="gallery__card-txt">
+										風車のある公園ヨガ。みんな私に釘付け。
+									</p>
+									<!-- /.gallery__card-txt -->
+								</div>
+								<!-- /.gallery__card -->
+							</div>
+						</div>
+						<!-- /.gallery__slider -->
+						<!-- If we need pagination -->
+						<div
+							id="js-gallery-pagination"
+							class="swiper-pagination gallery__pagination"
+						></div>
+
+						<!-- If we need navigation buttons -->
+						<div
+							id="js-gallery-prev"
+							class="swiper-button-prev gallery__prev"
+						></div>
+						<div
+							id="js-gallery-next"
+							class="swiper-button-next gallery__next"
+						></div>
+					</div>
+				</div>
+			</div>
+			<!-- /.gallery-inner inner__common -->
+		</section>
+		<!-- /.gallery -->
+
+		<section id="contact" class="contact">
+			<div class="contact__inner inner__common">
+				<div class="contact__box">
+					<div class="contact__title js-in-view fade-in-up">
+						<div class="heading__title">
+							<div class="heading__title-en">CONTACT</div>
+							<!-- /.heading__en -->
+							<h2 class="heading__title-ja">お問合せ</h2>
+							<!-- /.heading__ja -->
+						</div>
+						<!-- /.heading -->
+					</div>
+					<!-- /.contact__title -->
+					<form action="" class="contact__form">
+						<div class="contact__fields">
+							<div class="contact__field">
+								<div class="form-field">
+									<div class="form-field__head">
+										<label for="your-name" class="form-field__label"
+											>名前</label
+										>
+										<!-- /.form-field__label -->
+										<span class="form-field__tag">必須</span>
+										<!-- /.form-field__tag -->
+									</div>
+									<!-- /.form-field__head -->
+									<div class="form-field__item">
+										<input
+											type="text"
+											name="your-name"
+											id="your-name"
+											placeholder="田中  おは太郎"
+										/>
+									</div>
+									<!-- /.form-field__item -->
+								</div>
+								<!-- /.form-field -->
+							</div>
+							<!-- /.contact__field -->
+							<div class="contact__field">
+								<div class="form-field">
+									<div class="form-field__head">
+										<label for="your-email" class="form-field__label"
+											>メールアドレス</label
+										>
+										<!-- /.form-field__label -->
+										<span class="form-field__tag">必須</span>
+										<!-- /.form-field__tag -->
+									</div>
+									<!-- /.form-field__head -->
+									<div class="form-field__item">
+										<input
+											type="email"
+											name="your-email"
+											id="your-email"
+											placeholder="info@oha.com"
+										/>
+									</div>
+									<!-- /.form-field__item -->
+								</div>
+								<!-- /.form-field -->
+							</div>
+							<!-- /.contact__field -->
+
+							<div class="contact__field">
+								<div class="form-field">
+									<div class="form-field__head">
+										<div class="form-field__label">お問い合わせ項目</div>
+										<!-- form-field__label -->
+										<span class="form-field__tag">必須</span>
+										<!-- /.form-field__tag -->
+									</div>
+									<!-- /.form-field__head -->
+
+									<div class="form-field__item">
+										<div class="form-field__radios">
+											<label class="form-field__radio">
+												<input type="radio" name="your-name" id="" />
+												<span class="form-field__radio-txt">アプリの質問</span>
+												<!-- /.form-field__radio-txt -->
+											</label>
+											<label class="form-field__radio">
+												<input type="radio" name="your-name" id="" />
+												<span class="form-field__radio-txt">取材の依頼</span>
+												<!-- /.form-field__radio-txt -->
+											</label>
+											<label class="form-field__radio">
+												<input type="radio" name="your-name" id="" />
+												<span class="form-field__radio-txt">その他</span>
+												<!-- /.form-field__radio-txt -->
+											</label>
+										</div>
+										<!-- /.form-field__radios -->
+									</div>
+									<!-- /.form-field__item -->
+								</div>
+								<!-- form-field -->
+							</div>
+							<!-- /.contact__field -->
+
+							<div class="contact__field">
+								<div class="form-field">
+									<div class="form-field__head">
+										<label for="your-age" class="form-field__label">
+											年代</label
+										>
+										<!-- /.form-field__label -->
+										<span class="form-field__tag bgGreen">任意</span>
+										<!-- /.form-field__tag -->
+									</div>
+									<!-- /.form-field__head -->
+									<div class="form-field__item">
+										<select name="your-age" id="your-age">
+											<option value="">選択してください</option>
+											<option value="">10代</option>
+											<option value="">20代</option>
+											<option value="">30代</option>
+											<option value="">40代</option>
+											<option value="">50代</option>
+											<option value="">60代</option>
+											<option value="">70代</option>
+											<option value="">80代</option>
+										</select>
+									</div>
+									<!-- /.form-field__item -->
+								</div>
+								<!-- /.form-field -->
+							</div>
+							<!-- /.contact__field -->
+							<div class="contact__field">
+								<div class="form-field">
+									<div class="form-field__head">
+										<label for="your-txt" class="form-field__label"
+											>お問い合わせ内容</label
+										>
+										<!-- /.form-field__label -->
+										<span class="form-field__tag">必須</span>
+										<!-- /.form-field__tag -->
+									</div>
+									<!-- /.form-field__head -->
+									<div class="form-field__item">
+										<textarea
+											name="your-txt"
+											id="your-txt"
+											cols="30"
+											rows="10"
+											placeholder="ここに文章を入力してくださいここに文章を入力してください"
+										></textarea>
+									</div>
+									<!-- /.form-field__item -->
+								</div>
+								<!-- /.form-field -->
+							</div>
+							<!-- /.contact__field -->
+						</div>
+						<!-- /.contact__fields -->
+						<div class="contact__privacy">
+							<label class="form-checkBox">
+								<input
+									type="checkbox"
+									name="your-privacy"
+									class="form-checkbox__input"
+								/>
+								<span class="form-checkbox__txt">
+									<a href="#" target="_blank">プライバシーポリシー</a>に同意する
+								</span>
+								<!-- /.form-check__txt -->
+							</label>
+							<!-- /.form-checkBox -->
+						</div>
+						<!-- /.contact__privacy -->
+						<div class="contact__button">
+							<!-- <button>送信する</button> -->
+							<input
+								type="submit"
+								value="送信する"
+								class="border-button"
+							/><!-- 疑似要素は使えない -->
+						</div>
+						<!-- /.contact__button -->
+					</form>
+					<!-- /.contact__form -->
+				</div>
+				<!-- /.contact__box -->
+			</div>
+			<!-- /.contact__inner -->
+		</section>
+		<!-- /.contact -->
+
+		<footer>
+			<div class="footer__content">
+				<div class="footer__inner">
+					<small class="footer__txt"> COPYRIGHT 2023 株式会社デイトラ </small>
+					<!-- /.footer__txt -->
+					<!-- /.pageTop__img -->
+				</div>
+				<!-- /.footer__inner -->
+			</div>
+			<!-- /.footer__content -->
+		</footer>
+		<a href="#" class="pageTop__img" id="pageTop">
+			<img src="/img/pagetop-img.png" alt="" />
+		</a>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>
